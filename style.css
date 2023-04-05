@@ -16,7 +16,7 @@
 .grid-element {
     /* flex-basis: 5.5%; */
     flex-grow: 1;
-    margin: 1px;
+    /* margin: 1px; */
     border: 1px solid black;
     aspect-ratio: 1;
 }
