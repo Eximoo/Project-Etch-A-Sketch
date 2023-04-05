@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+#btn-container{
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 949px;
+    margin: 0 auto;
+    aspect-ratio: 1;
+}
+.grid-element {
+    /* flex-basis: 5.5%; */
+    flex-grow: 1;
+    margin: 1px;
+    border: 1px solid black;
+    aspect-ratio: 1;
+}
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+.changed {
+    background-color: black;
+}
